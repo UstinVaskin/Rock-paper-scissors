@@ -22,7 +22,7 @@ Rock-paper-scissors
 
 ### Summary 
 
-Create a simple Rock Paper Scissors game using javascript. Play the game game against the computer!
+Create a simple Rock Paper Scissors game using javascript. Play the game against the computer!
 
 ### Brief:
 * When a user makes their choice (rock, paper or scissors), you should also randomly generate a computer choice
