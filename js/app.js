@@ -18,6 +18,7 @@ function main() {
     return choices[randomNum] // choose element p or r or s 
   }
 
+
   // Users choice 
   rock_div.addEventListener('click', () => {
     game('r')
@@ -28,6 +29,7 @@ function main() {
   scissors_div.addEventListener('click', () => {
     game('s')
   })
+
 
   function game(userChoice) {  // looks at variations Userchoice and  compChoice
     const compChoice = getCompChoie()
@@ -49,17 +51,17 @@ function main() {
     }
   }
 
-
   function win() {
     userScore++
     userScore_span.innerHTML = userScore
-    result_div.innerHTML = 'You Win!'
+    result_div.innerHTML = 'You Win! '
+
   }
 
   function lose() {
     compScore++
     compScore_span.innerHTML = compScore
-    result_div.innerHTML = 'You Lose!'
+    result_div.innerHTML = `You Lose!`
   }
 
   function tie() {
